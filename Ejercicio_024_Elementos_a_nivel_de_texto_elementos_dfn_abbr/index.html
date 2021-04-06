@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Descripción de nuestra página web">
+        <title>Etiquetas de Semántica a Nivel de Texto en HTML5</title>
+    </head>
+
+    <body>  
+        <!-- Elemento body: Sección única por canda documento HTML -->
+        <header>
+            <div>
+                Aquí va mi logo
+            </div>
+            
+            <nav>
+                <ul>
+                    <li>Inicio</li>
+                    <li>Servicios
+                        <ul>
+                            <li>Servicio 1</li>
+                            <li>Servicio 2</li>
+                            <li>Servicio 3</li>
+                        </ul>
+                    </li>
+                    <li>Acerca de</li>
+                    <li>Blog</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+            Aquí va un formulario de búsqueda
+        </header>
+
+        <main>  
+            <!-- Elemento main: Contenido principal del documento HTML -->
+
+            <article>
+                <!-- <hgroup>
+                    <h1>Desarrollo Web</h1>
+                    <h2>Codeando Para la Web</h2>
+                    NOTA: Así se implementaba el elemento hgroup
+                </hgroup> -->
+
+                <header>
+                    <h1>Desarrollo Web</h1>
+                    <!-- <h2>Codeando Para la Web</h2> -->
+                    Fecha de publicación 
+                    Nombre del autor
+                    <address>
+                        elautor@ejemploemail.com 
+                    </address>
+
+                    <nav>
+                        <ul>
+                            <li>Desarrollo Web Frontend</li>
+                            <li>Desarrollo Web Backend</li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <p>Texto introductorio al tema del artículo…</p>
+
+                <p>
+                    La W3C en su página titulada como <cite>Acerca del W3C</cite>, dice que su misión es <q cite="https://www.w3.org/Consortium">Liderar el World Wide Web en todo su potencial mediante el desarrollo de protocolos y directrices que garantizan el crecimiento a largo plazo de la Web</q>; pero en la <dfn><abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr></dfn> no están de acuerdo con esta misión.
+                </p>
+
+                <pre>
+Este es un   texto  ya
+preformateado
+                </pre>
+
+                <section>
+                    <h2>Desarrollo Web Frontend</h2>
+
+                    <p>
+                        Texto enfocado a describir el perfil de un desarrollador web frontend…
+                    </p>
+
+                    <p>
+                        <strong>IMPORTANTE</strong>: Hay que tener muy presente que en el HTML solo nos debe importar hacer un correcto marcado del contenido, el estilo visual será asunto del CSS.
+                    </p>
+
+                    <hr>
+
+                    <p>
+                        Texto enfocado a hablar sobre los principales navegadores web...
+                    </p>
+
+                    <figure>
+                        Imagen de logos de Navegadores Principales
+
+                        <figcaption>
+                            Los lenguajes del frontend corren en los navegadores web
+                        </figcaption>
+                    </figure>
+
+                    <section>
+                        <h3>Lenguajes del Frontend</h3>
+
+                        <dl>
+                            <dt>HTML</dt>
+                            <dd>HyperText Markup Language</dd>
+                            <dt>CSS</dt>
+                            <dd>Cascading Style Sheets</dd>
+                            <dt>JavaScript</dt>
+                            <dd>Lenguaje de Programación para la Web</dd>
+                        </dl>
+                    </section>
+                </section>
+
+                <section>
+                    <h2>Desarrollo Web Backend</h2>
+
+                    <p>
+                        Texto enfocado a describir el perfil de un desarrollador web backend…
+                    </p>
+
+                    <hr>
+
+                    <p>
+                        Texto enfocado a hablar sobre los servidores web
+                    </p>
+
+                    <figure>
+                        Imagen de Servidores Web 
+
+                        <figcaption>
+                            Los lenguajes del backend corren en los servidores web
+                        </figcaption>
+                    </figure>
+                    
+                    <section>
+                        <h3>Ranking de Lenguajes mas Usados</h3>
+
+                        <ol>
+                            <li>Lenguaje X</li>
+                            <li>Lenguaje Y</li>
+                            <li>Lenguaje Z</li>
+                        </ol>
+                    </section>
+                </section>
+
+                <figure>
+                    <blockquote cite="https://developersworld.com/torvalds/best_developers">
+                        <p>
+                            La mayoría de los buenos programadores programan no porque esperen que el público les pague o los adulen, sino porque <em>es divertido programar</em>.
+                        </p>
+                    </blockquote>
+    
+                    <figcaption>
+                        Linus Torvalds, en <cite>Developers World</cite>
+                    </figcaption>
+                </figure>
+
+                <footer>
+                    <div>
+                        <div>
+                            Compartir en Facebook
+                        </div>
+
+                        <div>
+                            Compartir en Twitter
+                        </div>
+
+                        <div>
+                            Compartir en Linkedin
+                        </div>
+                    </div>
+                </footer>
+            </article>
+        </main>
+
+        <section>
+            <h2>Artículos Relacionados</h2>
+            <p>Quizás también te interesen estos artículos</p>
+
+            <article>
+                <h3>Título Articulo A</h3>
+
+                Imagen
+
+                <p>Un poco de texto...</p>
+            </article>
+
+            <article>
+                <h3>Título Articulo B</h3>
+
+                Imagen
+
+                <p>Un poco de texto...</p>
+            </article>
+
+            <article>
+                <h3>Título Articulo C</h3>
+
+                Imagen
+
+                <p>Un poco de texto...</p>
+            </article>
+        </section>
+
+        <aside>
+            <section>
+                <h2>Últimos Artículos</h2>
+            </section>
+
+            <section>
+                <h2>Artículos Mas Leídos</h2>
+            </section>
+
+            <section>
+                <h2>Publicidad</h2>
+
+                <article>
+                    <h3>Nombre del Ebook</h3>
+                    <p>Precio Anterior <s>$15 USD</s></p>
+                    <p><strong>PRECIO REBAJADO </strong>$10 USD</p>
+                </article>
+            </section>           
+        </aside>
+
+        <footer>
+            <address>
+                Correo electrónico
+                Dirección física
+            </address>
+            
+            <div>
+                <div>
+                    Facebook
+                </div>
+
+                <div>
+                    Twitter
+                </div>
+
+                <div>
+                    Linkedin
+                </div>
+            </div>
+            
+            <p>Copyright</p>
+
+            <div>
+                <p><small>Al navegar en nuestro sitio web, estás aceptando Nuestros Términos de Uso.</small></p>
+            </div>
+        </footer>
+    </body>
+</html>
+
+
